@@ -18,5 +18,5 @@ Simple Quiz app with Riddles on multiple catageory
 
 <br />
 
-[instagram]: https://instagram.com/codeSTACKr
-[linkedin]: https://linkedin.com/in/codeSTACKr
+[instagram]: https://www.instagram.com/prasad_thegreat/
+[linkedin]: https://www.linkedin.com/in/neelaprasad/
