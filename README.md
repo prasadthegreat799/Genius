@@ -2,6 +2,7 @@
 
 Simple Quiz app with Riddles on multiple catageory
 
+<img src="https://user-images.githubusercontent.com/link-to-your-image.png" width="200" />
 ![user_Register_screen](https://user-images.githubusercontent.com/69161825/123398182-dd68c480-d5c0-11eb-8a5c-7d27f9b89f4b.jpg)
 ![Login Screen](https://user-images.githubusercontent.com/69161825/123398212-e2c60f00-d5c0-11eb-961f-843b8eaa10f1.jpg)
 ![home_Screen](https://user-images.githubusercontent.com/69161825/123398239-e9ed1d00-d5c0-11eb-95af-f2b9e2aa8558.jpg)
