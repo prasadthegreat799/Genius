@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/answeredittxtwhatami"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="90dp"
+        android:hint="Enter Your Answer"
+        />
+
+    <Button
+        android:id="@+id/checkanswerbtnwhat"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/roundbutton"
+        android:text="Check Answer"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/nextwhatriddlebtn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/roundbutton"
+        android:text="Next Riddle"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

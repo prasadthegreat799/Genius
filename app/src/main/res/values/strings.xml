@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Genius</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="earndata">
+        Instructions:[For any Queries contact:geniusdeveloper799@gmail.com]\n\n
+        1.Guess the word with the given hints.\n\n
+        2.Correct answer will be displayed at home page along with name.\n\n
+    </string>
+    <string name="banner_ad_unit_id">ca-app-pub-6441909523816907/8261635498</string>
+    <string name="riddleofthedaytxt">Your Riddle Will Be Displayed On The Home Page Along With Your Name</string>
+    <string name="title_activity_mainad2">mainad2</string>
+    <string name="action_settings">Settings</string>
+</resources>

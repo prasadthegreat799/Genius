@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "425700917962",
+    "firebase_url": "https://onlinewat-7e013.firebaseio.com",
+    "project_id": "onlinewat-7e013",
+    "storage_bucket": "onlinewat-7e013.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425700917962:android:7c802354ab5f6c745aea33",
+        "android_client_info": {
+          "package_name": "com.prasadthegreat.genius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425700917962-8he3mv3shnghish5gqlms35jo3244rfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAleiuCTCXO4XkkxyUEyXTz4qsZCTEXnX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425700917962-8he3mv3shnghish5gqlms35jo3244rfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425700917962:android:28a75fa7e606f6485aea33",
+        "android_client_info": {
+          "package_name": "com.prasadthegreat.onlinewat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425700917962-8he3mv3shnghish5gqlms35jo3244rfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAleiuCTCXO4XkkxyUEyXTz4qsZCTEXnX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425700917962-8he3mv3shnghish5gqlms35jo3244rfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

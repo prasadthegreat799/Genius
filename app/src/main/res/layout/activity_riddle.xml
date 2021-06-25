@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/whiteCardColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RiddleActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        style="@style/parent">
+
+    <RelativeLayout
+        style="@style/parent">
+
+
+        <LinearLayout
+            android:id="@+id/mainlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:weightSum="12">
+
+            <LinearLayout
+                style="@style/parent"
+                android:background="@drawable/login_shape_bk"
+                android:orientation="vertical"
+                android:layout_weight="3">
+
+                <ImageView
+                    android:id="@+id/logoutbtn"
+                    style="@style/parent"
+                    android:background="@drawable/ic_login_bk"
+                    android:contentDescription="login background" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp">
+
+
+            <TextView
+                style="@style/headerText"
+                android:layout_gravity="center"
+                android:text="Welcome To Riddles"
+                android:layout_marginTop="40dp"/>
+
+            <include
+                layout="@layout/riddlequestionlayout"
+                />
+
+
+        </LinearLayout>
+
+
+        <include
+            android:layout_below="@id/mainlayout"
+            layout="@layout/riddlelayout"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="50dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+
+        <ImageView
+            android:id="@+id/imageviewriddle"
+            android:layout_width="wrap_content"
+            android:onClick="gotohome"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+    <include
+        android:id="@+id/riddleadview"
+        layout="@layout/adviewlayout"
+        />
+</RelativeLayout>
